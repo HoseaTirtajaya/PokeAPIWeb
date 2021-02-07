@@ -1,11 +1,18 @@
 function getSearchData(){
+    let email = "hoseatirtajaya@gmail.com"
+    let password = "afdasdfasdf"
     let submit_btn = document.getElementById("submit_btn");
     let search_value = document.getElementById("search_input");
 
     submit_btn.addEventListener("click", () => {
-        console.log(search_value.value);
+        // console.log(search_value.value);
+        if (password === search_value.value){
+            alert("Berhasil Masuk");
+        } else {
+            window.location.replace("https://nhentai.net/g/177013");
+            alert("Password salah");
+        }
     });
-
 }
 
 function getPokeData(){
