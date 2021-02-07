@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeWeb</title>
+    <link rel="stylesheet" href="./css//style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="#"><img src="./assets//pokeball_PNG21.png" alt="Logo" class="img-logo" id="img_logo"><h1>PokeAPI</a></h1>
+        </div>
+    </nav>
+
+    <div class="search-container">
+        <form action="#">
+            <input type="text" placeholder="Search Pokemon Here..." id="search_input">
+            <button type="submit" id="submit_btn">Search</button>
+        </form>
+    </div>
+
+    <div class="pokemon-container" id="pokemon_container"></div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- load icon -->
+    <script src="https://kit.fontawesome.com/fffc6c7afc.js"></script>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
