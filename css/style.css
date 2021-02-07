@@ -74,11 +74,4 @@ nav .img-logo{
     margin: 16px;
     padding: 8px;
 }
-
-.card{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-}
 /* END OF POKEMON CONTAINER */
